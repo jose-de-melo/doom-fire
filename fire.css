@@ -1,6 +1,26 @@
+body{
+    background-image: linear-gradient(to left, white, black);
+}
+
+
 table{
     border-collapse: collapse;
-    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+#fireCanvas{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.buttons, h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+h3{
+    color: white;
 }
 
 td{
@@ -24,7 +44,18 @@ td{
 }
 
 td.pixel{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border: 0;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
 }

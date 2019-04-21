@@ -6,11 +6,19 @@
     <title>Doom Fire</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="fire.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     
 </head>
 <body>
-    <div id="fireCanvas">
+    <h3>Doom Fire Effect</h3>
 
+    <div id="fireCanvas"></div>
+
+    <div class="buttons">
+        <button onclick="decreaseFireSource()">- Fire</button>
+        <button onclick="destroyFireSource()">Put Out Fire</button>
+        <button onclick="createFireSource()">Maximum Fire</button>
+        <button onclick="increaseFireSource()">+ Fire</button>
     </div>
 
 
